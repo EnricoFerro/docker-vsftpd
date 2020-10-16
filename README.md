@@ -1,6 +1,6 @@
 # enricoferro/vsftpd
 
-Fork by [furia/vsftp](https://github.com/furia/docker-vsftpd) using alpine and multiarch architecture
+Fork by [fauria/vsftp](https://github.com/fauria/docker-vsftpd) using alpine and multiarch architecture
 
 ![docker_logo](https://raw.githubusercontent.com/enricoferro/docker-vsftpd/master/docker_139x115.png)
 

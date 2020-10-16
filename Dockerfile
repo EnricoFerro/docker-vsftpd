@@ -10,7 +10,7 @@ LABEL Description="vsftpd Docker image based on Centos 7. Supports passive mode 
 	Usage="docker run -d -p [HOST PORT NUMBER]:21 -v [HOST FTP HOME]:/home/vsftpd fauria/vsftpd" \
 	Version="1.0"
 
-RUN apk add vsftpd bash
+RUN apk add vsftpd bash db db-utils
 
 
 ENV FTP_USER **String**
