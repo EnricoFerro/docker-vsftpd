@@ -2,8 +2,8 @@ ARG ARCH=
 FROM ${ARCH}alpine:3
 
 
-ARG USER_ID=14
-ARG GROUP_ID=50
+ARG USER_ID=1000
+ARG GROUP_ID=21
 
 LABEL Description="vsftpd Docker image based on Centos 7. Supports passive mode and virtual users." \
 	License="Apache License 2.0" \
@@ -12,8 +12,8 @@ LABEL Description="vsftpd Docker image based on Centos 7. Supports passive mode 
 
 RUN apk add vsftpd bash
 
-RUN usermod -u ${USER_ID} ftp
-RUN groupmod -g ${GROUP_ID} ftp
+RUN adduser -u ${USER_ID} ftp
+RUN addgroup -g ${GROUP_ID} ftp
 
 ENV FTP_USER **String**
 ENV FTP_PASS **Random**
