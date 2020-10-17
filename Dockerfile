@@ -5,9 +5,9 @@ FROM ${ARCH}alpine:3
 ARG USER_ID=1000
 ARG GROUP_ID=1000
 
-LABEL Description="vsftpd Docker image based on Centos 7. Supports passive mode and virtual users." \
-	License="Apache License 2.0" \
-	Usage="docker run -d -p [HOST PORT NUMBER]:21 -v [HOST FTP HOME]:/home/vsftpd fauria/vsftpd" \
+LABEL Description="vsftpd Docker image based on Alpine 3. Supports passive mode and virtual users." \
+	License="MIT" \
+	Usage="docker run -d -p [HOST PORT NUMBER]:21 -v [HOST FTP HOME]:/home/vsftpd enricoferro/vsftpd" \
 	Version="1.0"
 
 RUN apk add vsftpd bash db db-utils

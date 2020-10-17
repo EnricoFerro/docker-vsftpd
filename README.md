@@ -5,7 +5,7 @@ Fork by [fauria/vsftp](https://github.com/fauria/docker-vsftpd) using alpine and
 ![docker_logo](https://raw.githubusercontent.com/enricoferro/docker-vsftpd/master/docker_139x115.png)
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/enricoferro/vsftpd.svg?style=plastic)](https://hub.docker.com/r/enricoferro/vsftpd/)
-[![Docker Build Status](https://img.shields.io/docker/build/enricoferro/vsftpd.svg?style=plastic)](https://hub.docker.com/r/enricoferro/enricoferro/builds/)
+[![Docker Build Status](https://img.shields.io/docker/build/enricoferro/vsftpd.svg?style=plastic)](https://hub.docker.com/r/enricoferro/builds/)
 [![](https://images.microbadger.com/badges/image/enricoferro/vsftpd.svg)](https://microbadger.com/images/enricoferro/vsftpd "enricoferro/vsftpd")
 
 This Docker container implements a vsftpd server, with the following features:
@@ -103,13 +103,6 @@ This image uses environment variables to allow the configuration of some paramet
 * Default value: 077
 * Accepted values: File system permissions.
 * Description: The value that the umask for file creation is set to for local users. NOTE! If you want to specify octal values, remember the "0" prefix otherwise the value will be treated as a base 10 integer!
-
-----
-
-* Variable name: `REVERSE_LOOKUP_ENABLE`
-* Default value: YES
-* Accepted values: <NO|YES>
-* Description: Set to NO if you want to avoid performance issues where a name server doesn't respond to a reverse lookup.
 
 ----
 
