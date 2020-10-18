@@ -10,7 +10,7 @@ LABEL Description="vsftpd Docker image based on Alpine 3. Supports passive mode 
 	Usage="docker run -d -p [HOST PORT NUMBER]:21 -v [HOST FTP HOME]:/home/vsftpd enricoferro/vsftpd" \
 	Version="1.0"
 
-RUN apk add vsftpd bash db db-utils
+RUN apk add --no-cache  vsftpd bash db db-utils
 
 
 ENV FTP_USER **String**
