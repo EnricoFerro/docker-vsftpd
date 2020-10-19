@@ -5,7 +5,7 @@ Fork by [fauria/vsftp](https://github.com/fauria/docker-vsftpd) using alpine and
 ![docker_logo](https://raw.githubusercontent.com/enricoferro/docker-vsftpd/master/docker_139x115.png)
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/enricoferro/vsftpd.svg?style=plastic)](https://hub.docker.com/r/enricoferro/vsftpd/)
-[![Docker Build Status](https://img.shields.io/docker/build/enricoferro/vsftpd.svg?style=plastic)](https://hub.docker.com/r/enricoferro/builds/)
+[![Docker Build Status](https://github.com/EnricoFerro/docker-vsftpd/workflows/Docker%20Build/badge.svg)](https://github.com/EnricoFerro/docker-vsftpd/actions)
 [![](https://images.microbadger.com/badges/image/enricoferro/vsftpd.svg)](https://microbadger.com/images/enricoferro/vsftpd "enricoferro/vsftpd")
 
 This Docker container implements a vsftpd server, with the following features:
